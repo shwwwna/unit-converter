@@ -1,3 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Inter", sans-serif;
+}
+/* html {
+} */
+
+/*  */
+
+main {
+  margin: 0;
+}
+
 body {
-    margin: 0;
+  margin: auto;
+  text-align: center;
+  line-height: 1.75;
+  font-size: 1.25em;
+  background-color: #1f2937;
+  color: white;
+}
+
+section {
+  margin: 0;
+}
+
+section.top {
+  background-color: #6943ff;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.bottom {
+  padding: 3rem 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 3em 0 1em;
+}
+
+/* p,
+ul,
+ol {
+  margin-bottom: 2em;
+  color: #1d1d1d;
+  font-family: sans-serif;
+} */
+
+input {
+  border: 3px solid #b295ff;
+  border-radius: 5px;
+  font-size: 4rem;
+
+  width: 100%;
+  max-width: auto;
+  text-align: center;
+  background-color: transparent;
+  font-weight: 800;
+  color: white;
+  line-height: 1.5;
+}
+
+button {
+  display: block;
+  margin: 1em 0;
+  background-color: white;
+  border: none;
+  border-radius: 5px;
+  font-weight: 500;
+  width: 100%;
+  padding: 0.6rem 1.8rem;
+  line-height: 1.5;
+}
+
+.container {
+  width: 15ch;
+  margin-bottom: 1rem;
+}
+
+.result {
+  background-color: #273549;
+  border-radius: 5px;
+  margin: 1.5rem auto;
+  max-width: 50rem;
+  padding: 2rem 0 1.5rem 0;
+}
+
+h2 {
+  color: #ccc1ff;
+  font-weight: 600;
+  margin: 0 0 1rem 0;
 }
