@@ -7,9 +7,7 @@
 const conversion = [3.281, 0.264, 2.204];
 
 const convertBtn = document.getElementById("convert-btn");
-
 const inputEl = document.getElementById("input");
-const inputValue = inputEl.value;
 
 const lengthEl = document.getElementById("length");
 const volumeEl = document.getElementById("volume");
